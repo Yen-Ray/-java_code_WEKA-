@@ -1,0 +1,15 @@
+@relation weather
+ 
+@attribute temperature numeric
+@attribute humidity numeric
+@attribute windy {TRUE, FALSE}
+@attribute class {Sunny, Cloudy, Rainy}
+
+@data
+72,95,FALSE,?
+69,70,FALSE,?
+75,80,FALSE,?
+75,70,TRUE,?
+72,90,TRUE,?
+81,75,FALSE,?
+71,91,TRUE,?
