@@ -8,7 +8,7 @@ import weka.classifiers.Classifier;
 import weka.classifiers.trees.J48;
 import weka.core.Instances;
 
-public class Predict_Known {
+public class Predict_unknown {
 	static String currentDirection = new File("").getAbsolutePath();
  
     static int randomSeed=2;
